@@ -1,0 +1,104 @@
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo-small {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.logo-large {
+  width: 150px;
+}
+
+.container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.center-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.blue-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.blue-link:hover {
+  text-decoration: underline;
+}
+
+.custom-red-button {
+  background-color: red;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  padding: 8px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+
+.large-white-button {
+  color: white !important;
+  font-size: 1.2rem;
+  padding: 8px 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo-small {
+  max-width: 60px;
+  margin-right: 10px;
+}
+
+.logo-large {
+  max-width: 150px;
+}
+
+.full-width {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.center-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.invalid mat-form-field {
+  border-color: black;
+}
